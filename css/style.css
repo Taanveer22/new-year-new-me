@@ -7,7 +7,9 @@
     font-family: "Merriweather", serif;
 }
 
-.hero {
+/* hero section styles */
+
+#hero {
     width: 1003px;
     height: 460px;
     margin: 38px auto;
@@ -19,6 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 90px;
 }
 
 .hero-content {
@@ -36,4 +39,94 @@
     color: rgb(255, 255, 255);
     font-size: 55px;
     font-weight: 900;
+}
+
+/* discount section styles */
+#discount {
+    width: 610px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.discount-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount-text {
+    margin-bottom: 36px;
+}
+
+.discount-title {
+    color: rgb(255, 0, 0);
+    font-size: 67px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+
+.discount-info {
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.discount-subtitle {
+    color: rgb(7, 2, 17);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.discount-photo img {
+    width: 100%;
+}
+
+/* party section styles */
+#party {
+    width: 1003px;
+    height: 460px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../resources/Vector.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.party-container{
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    justify-content: space-around;
+}
+.party-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.party-descripton {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+
+.party-btn {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.party-photo img {
+   width: 265px;
+   height: 352px;
 }
